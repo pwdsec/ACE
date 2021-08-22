@@ -7,7 +7,6 @@
 
 #include <vadefs.h>
 
-
 struct Address {
     static const uintptr_t exec = 0x467020;
 };
