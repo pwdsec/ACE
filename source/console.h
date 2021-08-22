@@ -6,7 +6,7 @@
 #define ACE_CONSOLE_H
 
 #include <consoleapi2.h>
-#include <cstdio>
+#include <stdio.h>
 
 static void AllowConsole(const char *cname, const char *window_name, const char *window_new_name) {
     FILE *c;
