@@ -7,11 +7,7 @@
 
 #include <vadefs.h>
 
-struct Address {
-    static const uintptr_t exec = 0x467020;
-};
-
 typedef int(__cdecl* execute_official)(const char* cfg_code);
-auto AC_execute = reinterpret_cast<execute_official>(Address::exec);
+auto AC_execute = execute_official(0x467020);
 
 #endif //ACE_CORE_H
