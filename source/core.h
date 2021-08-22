@@ -8,6 +8,6 @@
 #include <vadefs.h>
 
 typedef int(__cdecl* execute_official)(const char* cfg_code);
-auto AC_execute = execute_official(0x467020);
+execute_official AC_execute = (execute_official)(0x467020);
 
 #endif //ACE_CORE_H
