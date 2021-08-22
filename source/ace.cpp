@@ -6,7 +6,7 @@
 int __RPC_CALLEE main() {
     AllowConsole("ACE", "AssaultCube", "ACE - 1.0");
     ConsoleOutput("Loaded");
-    while (true) {
+    while (1) {
         char data[99];
         printf("> ");
         fgets(data, 99, stdin);
